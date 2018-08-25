@@ -263,20 +263,12 @@
 [name_hide]
 一気に気温が、下がった気がした。[p]
 
-/*
-;ズームアップ（顔に近づくように）
-[camera time="3000" x="250" y="170" zoom="2" wait="true"]
-*/
-
 [wait time=1000]
 
-;ずーむ
-[camera zoom=1.7 y=150 x=200 time=0]
+;背景３差分（病み顔ズーム）
+[bg storage="scene3_sickness.png" time="100"]
 
 [wait time=300]
-
-;背景３差分（こっちを見る）
-[bg storage="scene1_front_smile.png" time="100"]
 
 [name_show]
 #暁美
@@ -286,8 +278,6 @@
 
 ;暗転
 [暗転閉 haikei="black.png" time="500"]
-;暗転中にカメラリセットしておく
-[reset_camera time="0" wait="true"]
 [暗転開 time="500"]
 
 その言葉は暗闇の中に消えていった。[p]
