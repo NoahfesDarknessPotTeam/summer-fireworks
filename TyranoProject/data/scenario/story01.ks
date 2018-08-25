@@ -161,10 +161,7 @@
 #兄
 「一緒に花火するって約束、してたのになあ」[p]
 
-[playse storage="handy_firework1.ogg" buf="2"]
-
 [name_hide]
-[fadeoutse buf="2" time="1000"]
 
 ;黒背景
 [暗転閉 haikei="black.png" time="1000"]
