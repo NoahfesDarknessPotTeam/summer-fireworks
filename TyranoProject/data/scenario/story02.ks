@@ -111,35 +111,52 @@
 
 #暁美
 #
-/*
+
 ;演出で画像に文字表示
-「許せるわけがない」[p]
-
-「生きている意味がない」[p]
-
-「俺達の姉を殺しておいて」[p]
-
-「私達の家族を自殺に追い込んで」[p]
-
-「死んでしまえばいい」[p]
-
-「死ねばいい」[p]
-
-「殺したっていい」[p]
-
-「殺せばいい」[p]
-
-「綾姉ぇを虐めた奴らなんて」[p]
-
-「みんなみんなまとめて────」[p]
-
-『────死んでしまえばいい』[p]
-*/
+[layopt layer=message0 visible=false]
+[layopt layer=message1 visible=false]
+[bg storage="1.png" time="0"]
+[wait time=1151]
+[bg storage="2.png" time="0"]
+[wait time=1295]
+[bg storage="3.png" time="0"]
+[wait time=1647]
+[bg storage="4.png" time="0"]
+[wait time=2200]
+[bg storage="5.png" time="0"]
+[wait time=1000]
+[bg storage="6.png" time="0"]
+[wait time=900]
+[bg storage="7.png" time="0"]
+[wait time=950]
+[bg storage="8.png" time="0"]
+[wait time=1044]
+[bg storage="9.png" time="0"]
+[wait time=1300]
+[bg storage="10.png" time="0"]
+[wait time=1642]
+[bg storage="11.png" time="0"]
+[wait time=2130]
+[bg storage="12.png" time="0"]
+[wait time=2000]
+;「許せるわけがない」[p]
+;「生きている意味がない」[p]
+;「俺達の姉を殺しておいて」[p]
+;「私達の家族を自殺に追い込んで」[p]
+;「死んでしまえばいい」[p]
+;「死ねばいい」[p]
+;「殺したっていい」[p]
+;「殺せばいい」[p]
+;「綾姉ぇを虐めた奴らなんて」[p]
+;「みんなみんなまとめて────」[p]
+;『────死んでしまえばいい』[p]
 
 ;黒背景
-[暗転閉 haikei="black.png" time=500]
+[暗転閉 haikei="black.png" time=2000]
+[layopt layer=message0 visible=true]
 [暗転開 time=500]
 
+[layopt layer=message1 visible=true]
 [name_hide]
 気付けば花火は消えていた。[p]
 いつ消えたのか[r]俺達のどちらも分からなかった。[p]
@@ -237,8 +254,6 @@
 「へへっ、ちょっと楽しみだね。[r]天国でみんなに会えるのが」[p]
 
 [name_hide]
-
-*dbg
 
 ;白転
 [bg storage="white.png" time="2000"]
