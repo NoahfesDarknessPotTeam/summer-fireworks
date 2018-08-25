@@ -27,9 +27,9 @@
 
 ;背景１
 ;ゆっくり明るくなる
-[bg storage="scene1_fireworks1.png" time="2000" wait="true"]
+[bg storage="scene1_fireworks_smile.png" time="2000" wait="true"]
 
-[bg storage="scene1_fireworks2.png" time="500"]
+[bg storage="scene1_fireworks_talk.png" time="500"]
 [name_show]
 #暁美
 「わあ、綺麗……」[p]
@@ -43,11 +43,11 @@
 #暁美
 「そうだね、去年ぶりだよね」[p]
 
-[bg storage="scene1_fireworks1.png" time="500"]
+[bg storage="scene1_fireworks_smile.png" time="500"]
 [name_hide]
 立ち上る煙とともに火薬の匂いが鼻を突く。[r]それでも暁美は気に留めずに、[r]花火を恍惚と眺めている。[p]
 
-[bg storage="scene1_front2.png" time="500"]
+[bg storage="scene1_front_talk.png" time="500"]
 [name_show]
 #暁美
 「うーん、それにしても疲れたね」[p]
@@ -73,7 +73,7 @@
 「綾子お姉ちゃんに？」[p]
 
 [name_hide]
-[bg storage="scene1_front1.png" time="500"]
+[bg storage="scene1_front_smile.png" time="500"]
 
 俺は無言で頷いた。[p]
 
@@ -108,10 +108,10 @@
 
 ;背景２
 ;ゆっくり明るくなる
-[bg storage="scene1_front1.png" time="2000" wait="true"]
+[bg storage="scene1_front_smile.png" time="2000" wait="true"]
 
 [fadeoutse buf="2" time="1000"]
-[bg storage="scene1_front2.png" time="500"]
+[bg storage="scene1_front_talk.png" time="500"]
 [name_show]
 #暁美
 「それにしても、綾子お姉ちゃんはしっかり者だよねー」[p]
@@ -130,11 +130,11 @@
 #兄
 「ほんと、失敗だったなあれは……」[p]
 
-[bg storage="scene1_front1.png" time="500"]
+[bg storage="scene1_front_smile.png" time="500"]
 [name_hide]
 暁美の苦笑いが同情を含んでいて、なんとも肩が落ちる。[p]
 
-[bg storage="scene1_front2.png" time="500"]
+[bg storage="scene1_front_talk.png" time="500"]
 [name_show]
 #暁美
 「そう考えるとお姉ちゃんってほんと万能人だよねー」[p]
@@ -178,10 +178,10 @@
 
 ;背景３
 ;ゆっくり明るく
-[bg storage="scene1_fireworks1.png" time="2000" wait="true"]
+[bg storage="scene1_fireworks_smile.png" time="2000" wait="true"]
 
 [fadeoutse buf="2" time="1000"]
-[bg storage="scene1_fireworks2.png" time="500"]
+[bg storage="scene1_fireworks_talk.png" time="500"]
 [name_show]
 #暁美
 「こうやって花火をしてるとさ、昔のことを思い出すよね」[p]
@@ -208,7 +208,7 @@
 「でもさ、もうその約束は叶わないんだよね」[p]
 
 ;背景３差分（こっちを見る）
-[bg storage="scene1_front1.png" time="500"]
+[bg storage="scene1_front_smile.png" time="500"]
 
 [name_hide]
 一気に気温が、下がった気がした。[p]
