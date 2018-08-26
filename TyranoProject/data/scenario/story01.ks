@@ -2,7 +2,7 @@
 
 ;ボイス設定
 [voconfig sebuf="5" name="兄" vostorage="{number}m.ogg" number="1"]
-[voconfig sebuf="5" name="暁美" vostorage="{number}h.ogg" number="1"]
+[voconfig sebuf="5" name="暁美" vostorage="{number}r.ogg" number="1"]
 [vostart]
 
 ;白背景（手のやつ）

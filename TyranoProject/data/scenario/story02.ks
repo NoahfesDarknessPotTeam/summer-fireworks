@@ -4,10 +4,9 @@
 
 ;ボイス設定
 [voconfig sebuf=2 name="兄" vostorage="{number}m.ogg" number=24]
-[voconfig sebuf=2 name="暁美" vostorage="{number}h.ogg" number=28]
+[voconfig sebuf=2 name="暁美" vostorage="{number}r.ogg" number=28]
 [vostart]
 
-;デバッグ用
 ;黒背景
 [scenario_init haikei="black.png"]
 
@@ -277,7 +276,7 @@
 「ああ。[r]ゴミの処理にも貢献したし、[r]間違いなく行けるだろうな」[p]
 
 #暁美
-「そっか。[r]じゃあお父さんとお母さん、[r]あとお姉ちゃんにももうすぐ会えるんだね」[p]
+「そっか。[r]じゃあお父さんとお母さん、[r]あとお姉ちゃんに、もうすぐ会えるんだね」[p]
 
 #兄
 「数年ぶりの一家団欒になるな」[p]
