@@ -2,12 +2,12 @@
 [cm]
 
 @clearstack
-[bg storage ="black.png" time=0]
+[bg storage ="title.png" time=0]
 @wait time = 200
 
 *start 
 
-[button x=100 y=250 graphic="title/button_start.png" target="gamestart"]
+[button x=650 y=400 graphic="title/button_start.png" target="gamestart"]
 /*
 [button x=100 y=320 graphic="title/button_load.png"  role="load" ]
 [button x=100 y=390 graphic="title/button_cg.png" storage="cg.ks" ]
