@@ -19,6 +19,9 @@
 
 ;[jump target="*dbg"]
 
+;メッセージウィンドウ表示
+[layopt layer=message0 visible=true]
+
 [name_show]
 #兄
 「……ああ、そうだな」[p]
@@ -210,11 +213,19 @@
 ;BGM メイン４
 [BGM storage="main4.ogg" volume=70]
 
+;メッセージウィンドウ非表示
+[layopt layer=message0 visible=false]
+
 ;背景６
 [bg storage="scene6_3.png" time="2000"]
 
 ;SE
 [SE storage="takibi.ogg" volume="30"]
+
+[wait time=1000]
+
+;メッセージウィンドウ表示
+[layopt layer=message0 visible=true]
 
 花火の炎がゴミの身にまとう服に引火して、たちまち火だるまのような塊が形成された。[p]
 [bg storage="scene6_4.png" time="1000"]

@@ -378,6 +378,9 @@
 [name_tag]
 #
 
+;メッセージウィンドウ非表示
+[layopt layer=message0 visible=false]
+
 [mask_off time=1000]
 [endmacro]
 

@@ -13,9 +13,6 @@
 ;[jump target="*dbg"]
 
 
-;メッセージウィンドウ非表示
-[layopt layer=message0 visible=false]
-
 ;切れ方が中途半端になっているのでここのBGMはもうちょっと考えたい
 [fadeinbgm storage="main1.ogg" time="2000" volume="50"]
 [wait time="15000"]
@@ -32,6 +29,9 @@
 
 ;メッセージウィンドウ表示
 [layopt layer=message0 visible=true]
+
+;オートスタート
+[autostart]
 
 [name_hide]
 しゅぼ、っと音を立てて火が付いた。[p]
