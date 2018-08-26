@@ -6,7 +6,7 @@
 [vostart]
 
 ;白背景（手のやつ）
-[scenario_init haikei="white.png"]
+[scenario_init haikei="inori_white.png"]
 
 
 ;デバッグ用
@@ -27,7 +27,8 @@
 [playse storage="handy_firework1.ogg" buf="2" volume="50"]
 
 ;黒背景にしてスタート
-[bg storage="scene1_fireworks_talk.png" time="500"]
+[暗転閉 haikei="scene1_fireworks_talk.png" time="500"]
+[暗転開 time="0"]
 
 ;メッセージウィンドウ表示
 [layopt layer=message0 visible=true]
