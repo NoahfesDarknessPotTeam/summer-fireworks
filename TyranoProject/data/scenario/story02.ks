@@ -41,8 +41,8 @@
 #兄
 「そして――
 
-[wait time=400]
 ;ずーむ
+[wait time=400]
 [camera zoom=1.3 y=80 time=0]
 [wait time=100]
 
@@ -54,11 +54,21 @@
 #兄
 「綾姉ぇはそれを見過ごせなくて、[r]止めに入った」[p]
 
+;ずーむ
+[wait time=400]
+[camera zoom=1.7 y=100 time=0]
+[wait time=100]
+
 #暁美
 「それを虐めっ子は許さなかった」[p]
 
 #兄
 「そして綾姉ぇが[r]虐めの的に変わってしまった」[p]
+
+;ずーむ
+[wait time=400]
+[camera zoom=2.1 y=130 time=0]
+[wait time=100]
 
 #暁美
 「でもお姉ちゃんはそれに耐えていた」[p]
@@ -66,10 +76,10 @@
 #兄
 「だって綾姉ぇは悪くないから。正しいことをしただけ。それで救われた人もいた。[r]だから耐えることが出来た」[p]
 
-[カメラリセット]
-
 ;背景５差分
-;[bg storage="scene4.png" time="1000"]
+[暗転閉 haikei="scene4_3.png" time=500]
+[カメラリセット]
+[暗転開]
 
 #暁美
 「でも――」[p]
@@ -81,10 +91,10 @@
 「――そのイジメから助けた人までが、[r]お姉ちゃんを虐めるようになった」[p]
 
 ;黒背景
-[暗転閉 haikei="black.png" time=500]
+[暗転閉 haikei="black.png" time=200]
 [name_hide]
 [bgmopt volume=10]
-[暗転開 time=500]
+[暗転開 time=200]
 
 無音になった。[p]
 花火も消えて俺達も何も話さない。[p]
@@ -95,6 +105,9 @@
 [fadeoutse time=3000]
 
 機械的な動作でまた暁美は花火に火をつける。[p]
+
+[暗転閉 haikei="scene4_3.png" time=500]
+[暗転開 time=500]
 [name_show]
 
 #暁美
@@ -136,7 +149,7 @@
 [bg storage="10.png" time="0"]
 [wait time=1642]
 [bg storage="11.png" time="0"]
-[wait time=2130]
+[wait time=2500]
 [bg storage="12.png" time="0"]
 [wait time=2000]
 ;「許せるわけがない」[p]
@@ -259,28 +272,30 @@
 [bg storage="white.png" time="2000"]
 
 ;手の背景
-[bg storage="white.png" time="0"]
+[bg storage="te.png" time="0"]
 
 [name_hide]
 俺達は手を握った。[r]離さないように、強く固く。[p]
 そうして俺たちは、大きな光に包まれた。[p]
-[name_show]
 
-;レイヤー開放
+[bgmopt volume=100]
+
+#
+[カメラリセット]
 [freeimage layer=0]
 [layopt layer=message0 visible=false]
 [layopt layer=message1 visible=false]
+
+;祈り
+[bg storage="inori.png" time="5000"]
+[wait time=10000]
+
+;レイヤー開放
 [暗転閉 haikei="black.png" time=3000]
-#
-[カメラリセット]
 [cm]
 [clearfix]
 [暗転開]
 
 ;タイトルに戻る
 [jump storage="title.ks"]
-
-/*
-「じゃあ最後に────」[p]
-「────大きな花火、打ち上げようか」[p]
-*/
+[s]
