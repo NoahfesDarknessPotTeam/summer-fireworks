@@ -24,7 +24,7 @@
 [playse storage="handy_firework1.ogg" buf="2" volume="50"]
 
 ;黒背景にしてスタート
-[暗転閉 haikei="scene1_fireworks_talk.png" time="500"]
+[暗転閉 haikei="black.png" time="500"]
 [暗転開 time="0"]
 
 ;メッセージウィンドウ表示
@@ -36,13 +36,12 @@
 [name_hide]
 しゅぼ、っと音を立てて火が付いた。[p]
 
-[fadeoutse buf="2" time="2000"]
-
-そして暗闇を灯すように[r]目映い光が俺達を照らした。[p]
-
+[fadeoutse buf="2" time="1000"]
 ;背景１
 ;ゆっくり明るくなる
-[bg storage="scene1_fireworks_smile.png" time="100" wait="true"]
+[bg storage="scene1_004.png" time="2000" wait="true"]
+
+そして暗闇を灯すように[r]目映い光が俺達を照らした。[p]
 
 [name_show]
 #暁美
@@ -51,20 +50,21 @@
 [name_hide]
 暁美の顔が赤く照らされながらそう呟いた。[p]
 
-[bg storage="scene1_fireworks_talk.png" time="100"]
-
 [name_show]
 #兄
 「花火なんて久しぶりだよな」[p]
+
+[bg storage="scene1_001.png" time="100"]
+
 #暁美
 「そうだね、去年ぶりだよね」[p]
 
-[bg storage="scene1_fireworks_smile.png" time="100"]
 [name_hide]
 立ち上る煙とともに火薬の匂いが鼻を突く。[p]
 それでも暁美は気に留めずに、[r]花火を恍惚と眺めている。[p]
 
-[bg storage="scene1_front_talk.png" time="100"]
+[bg storage="scene1_002.png" time="100"]
+
 [name_show]
 #暁美
 「うーん、それにしても疲れたね」[p]
@@ -86,6 +86,9 @@
 「だってお兄ちゃん人の前に立つとか、[r]そんな柄じゃなかったじゃん！」[p]
 #兄
 「まあ確かに俺は、[r]目立つのとかは嫌いだけどさ」[p]
+
+[bg storage="scene1_005.png" time="100"]
+
 #暁美
 「それが急にどうしてだったの？」[p]
 #兄
@@ -97,17 +100,14 @@
 「綾子お姉ちゃんに？」[p]
 
 [name_hide]
-
-[bg storage="scene1_front_smile.png" time="100"]
-
 俺は無言で頷いた。[p]
 
-;黒背景（ろうそくの絵）
-[暗転閉 haikei="black.png" time="300"]
-[暗転開 time="0"]
+[bg storage="scene1_008.png" time="1000" wait="true"]
 
 すると俺達の会話を遮るように[r]辺りが暗くなった。[p]
 勢いをなくした花火が力なく瞬き、[r]やがて完全に黒い空間に広がった。[p]
+
+[bg storage="scene1_007.png" time="100"]
 
 [name_show]
 #暁美
@@ -119,6 +119,9 @@
 [name_show]
 #兄
 「まだ花火はあるから、[r]好きなだけ遊ぶといいさ」[p]
+
+[bg storage="scene1_006.png" time="100"]
+
 #暁美
 「ありがとうね。[r]私の急なわがまま聞いてくれて」[p]
 #兄
@@ -133,9 +136,9 @@
 
 ;背景２
 ;ゆっくり明るくなる
-[bg storage="scene1_front_smile.png" time="2000" wait="true"]
+[bg storage="scene2_001.png" time="1000" wait="true"]
 
-[fadeoutse buf="2" time="1000"]
+[fadeoutse buf="2" time="500"]
 
 [name_show]
 #暁美
@@ -143,18 +146,22 @@
 #兄
 「あんな背中見て育ったから、[r]俺だってそうなりたいって思ったんだよ」[p]
 
-[bg storage="scene1_front_talk.png" time="100"]
+[bg storage="scene2_003.png" time="100"]
 
 #暁美
 「だから生徒会入ってみたの？」[p]
 #兄
 「ああ。そうしたら何か変われるんじゃないかと思ってな」[p]
+
+[bg storage="scene2_002.png" time="100"]
+
 #暁美
 「それで？なにか変われた？」[p]
 #兄
 「……いいや。まったく」[p]
 
-[bg storage="scene1_front_smile.png" time="100"]
+[bg storage="scene2_003.png" time="100"]
+
 ;ずーむ
 [camera zoom=1.3 y=80 x=200 time=0]
 
@@ -166,7 +173,7 @@
 [name_hide]
 暁美の苦笑いが同情を含んでいて、[r]なんとも肩が落ちる。[p]
 
-[bg storage="scene1_front_talk.png" time="100"]
+[bg storage="scene2_001.png" time="100"]
 [カメラリセット]
 
 [name_show]
@@ -179,18 +186,21 @@
 #兄
 「俺達への面倒見も良かったしな」[p]
 
-[bg storage="scene1_front_smile.png" time="100"]
+[bg storage="scene2_003.png" time="100"]
 
 #暁美
 「私たちには父さんも母さんもいないけど、[r]寂しくはなかったよね」[p]
 #兄
 「よくあそこまで[r]手本みたいなこと出来るよな」[p]
+
+[bg storage="scene2_002.png" time="100"]
+
 #暁美
 「そりゃお兄ちゃんも憧れちゃうよね」[p]
 #兄
 「そういう暁美だって憧れてたろ？」[p]
 
-[bg storage="scene1_front_talk.png" time="100"]
+[bg storage="scene2_003.png" time="100"]
 ;ずーむ
 [camera zoom=1.3 y=80 x=200 time=0]
 
@@ -199,6 +209,7 @@
 #兄
 「やっぱそうだよなあ」[p]
 
+[bg storage="scene2_001.png" time="100"]
 [カメラリセット]
 
 #暁美
@@ -207,11 +218,9 @@
 「一緒に花火するって約束、してたのになあ」[p]
 
 [name_hide]
-火薬の弾ける音が小さくなっていく。[r]そしてまた静寂と漆黒が訪れた。[p]
+[bg storage="scene2_004.png" time="1000" wait="true"]
 
-;黒背景
-[暗転閉 haikei="black.png" time="1000"]
-[暗転開 time="0"]
+火薬の弾ける音が小さくなっていく。[r]そしてまた静寂と漆黒が訪れた。[p]
 
 [playse storage="handy_firework1.ogg" buf="2" volume="50"]
 
@@ -219,9 +228,9 @@
 
 ;背景３
 ;ゆっくり明るく
-[bg storage="scene1_fireworks_smile.png" time="2000" wait="true"]
+[bg storage="scene3_001.png" time="500" wait="true"]
 
-[fadeoutse buf="2" time="1000"]
+[fadeoutse buf="2" time="500"]
 
 [name_show]
 #暁美
@@ -229,7 +238,6 @@
 #兄
 「ああ、俺も同じこと思い出してると思うよ」[p]
 
-[bg storage="scene1_fireworks_talk.png" time="100"]
 ;ずーむ
 [camera zoom=1.3 y=80 x=200 time=0]
 
@@ -237,24 +245,26 @@
 「うん。家族みんなでよく花火をしたもんね。[r]お父さんとお母さんが死んじゃった後も、お姉ちゃんがよく花火を買ってきてくれたよね」[p]
 #兄
 「俺達にとって花火はなんというか、大事なコミュニケーションみたいなものだもんな」[p]
+
+[bg storage="scene3_002.png" time="100"]
+
 #暁美
 「うん。だからかな、[r]私は花火がとっても好きなんだ」[p]
 #兄
 「奇遇だな、俺もなんだ」[p]
-
-[bg storage="scene1_front_smile.png" time="100"]
-
 #暁美
 「お父さんとお母さんのことはよく覚えてないけど、花火をしている時はなぜか身近に感じられるんだ」[p]
 #兄
 「だから綾姉ぇは毎年花火をしようって言ったんだろうな」[p]
+
+[bg storage="scene3_001.png" time="100"]
+
 #暁美
 「去年もお姉ちゃんは約束してくれたもんね」[p]
 #兄
 「来年も花火を三人でしよう、ってな」[p]
 
 [カメラリセット]
-[bg storage="scene1_fireworks_smile.png" time="100"]
 
 [stopbgm]
 
@@ -267,7 +277,7 @@
 [wait time=1000]
 
 ;背景３差分（病み顔ズーム）
-[bg storage="scene3_sickness.png" time="100"]
+[bg storage="scene3_003.png" time="100"]
 
 [wait time=300]
 
