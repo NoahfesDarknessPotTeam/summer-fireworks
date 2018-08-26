@@ -8,9 +8,11 @@
 ;白背景（手のやつ）
 [scenario_init haikei="inori_white.png"]
 
-
+/*
 ;デバッグ用
-;[jump target="*dbg"]
+[layopt layer=message0 visible=true]
+[jump target="*dbg"]
+*/
 
 
 ;切れ方が中途半端になっているのでここのBGMはもうちょっと考えたい
@@ -238,15 +240,20 @@
 #兄
 「ああ、俺も同じこと思い出してると思うよ」[p]
 
+/*
 ;ずーむ
 [camera zoom=1.3 y=80 x=200 time=0]
+*/
+
+[bg storage="pict.png" time="1000"]
+[wait time=500]
 
 #暁美
 「うん。家族みんなでよく花火をしたもんね。[r]お父さんとお母さんが死んじゃった後も、お姉ちゃんがよく花火を買ってきてくれたよね」[p]
 #兄
 「俺達にとって花火はなんというか、大事なコミュニケーションみたいなものだもんな」[p]
 
-[bg storage="scene3_002.png" time="100"]
+[bg storage="scene3_002.png" time="500"]
 
 #暁美
 「うん。だからかな、[r]私は花火がとっても好きなんだ」[p]
