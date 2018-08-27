@@ -1,5 +1,7 @@
 *start
 
+[stopbgm]
+
 ;ボイス設定
 [voconfig sebuf="5" name="兄" vostorage="{number}m.ogg" number="1"]
 [voconfig sebuf="5" name="暁美" vostorage="{number}r.ogg" number="1"]
@@ -31,9 +33,6 @@
 
 ;メッセージウィンドウ表示
 [layopt layer=message0 visible=true]
-
-;オートスタート
-[autostart]
 
 [name_hide]
 しゅぼ、っと音を立てて火が付いた。[p]
