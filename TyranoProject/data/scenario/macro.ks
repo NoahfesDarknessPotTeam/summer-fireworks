@@ -82,15 +82,15 @@
 
 ;キャラ移動
 [macro name="左移動"]
-[anim name=%name opacity="0" time="0"]
+[anim name=%name opacity="0" time="10"]
 [anim name=%name opacity="255" left="-=250" time=%time|1000 wait=%wait|true]
 [endmacro]
 [macro name="右移動"]
-[anim name=%name opacity="0" time="0"]
+[anim name=%name opacity="0" time="10"]
 [anim name=%name opacity="255" left="+=250" time=%time|1000 wait=%wait|true]
 [endmacro]
 [macro name="上移動"]
-[anim name=%name opacity="0" time="0"]
+[anim name=%name opacity="0" time="10"]
 [anim name=%name opacity="255" top="-=1000" time=%time|1000 wait=%wait|true]
 [endmacro]
 [macro name="指定移動"]
@@ -110,15 +110,15 @@
 [chara_show name="safia" top="&f.tks" left=250 time=%time|1000 wait=%wait|true]
 [endmacro]
 [macro name="サフィア登場左出"]
-[サフィア登場左 time=0]
+[サフィア登場左 time=10]
 [右移動 name="safia"]
 [endmacro]
 [macro name="サフィア登場右出"]
-[サフィア登場右 time=0]
+[サフィア登場右 time=10]
 [左移動 name="safia"]
 [endmacro]
 [macro name="サフィア登場下"]
-[chara_show name="safia" top="&f.tks" top="1050" time=0 wait=%wait|true]
+[chara_show name="safia" top="&f.tks" top="1050" time=10 wait=%wait|true]
 [上移動 name="safia"]
 [endmacro]
 
@@ -127,11 +127,11 @@
 [chara_show name="rei" top="&f.tks" wait=%wait|true]
 [endmacro]
 [macro name="霊登場左"]
-[chara_show name="rei" top="&f.tks" left=-500 time=0 wait=%wait|true]
+[chara_show name="rei" top="&f.tks" left=-500 time=10 wait=%wait|true]
 [右移動 name="rei"]
 [endmacro]
 [macro name="霊登場最左"]
-[chara_show name="rei" top="&f.tks" left=-750 time=0 wait=%wait|true]
+[chara_show name="rei" top="&f.tks" left=-750 time=10 wait=%wait|true]
 [右移動 name="rei"]
 [endmacro]
 [macro name="霊登場左即"]
@@ -160,27 +160,27 @@
 
 ;キャラ退場
 [macro name="退場"]
-[anim name=%name opacity="255" time="0"]
+[anim name=%name opacity="255" time="10"]
 [anim name=%name opacity="0" time="%time|1000" wait=%wait|true]
-[chara_hide name=%name time=0]
+[chara_hide name=%name time=10]
 [endmacro]
 
 [macro name="左退場"]
-[anim name=%name opacity="255" time="0"]
+[anim name=%name opacity="255" time="10"]
 [anim name=%name opacity="0" left="-=250" time="1000" wait=%wait|true]
-[chara_hide name=%name time=0]
+[chara_hide name=%name time=10]
 [endmacro]
 
 [macro name="右退場"]
-[anim name=%name opacity="255" time="0"]
+[anim name=%name opacity="255" time="10"]
 [anim name=%name opacity="0" left="+=250" time="%time|1000" wait=%wait|true]
-[chara_hide name=%name time=0]
+[chara_hide name=%name time=10]
 [endmacro]
 
 [macro name="下退場"]
-[anim name=%name opacity="255" time="0"]
+[anim name=%name opacity="255" time="10"]
 [anim name=%name opacity="0" top="+=1000" time="1000" wait=%wait|true]
-[chara_hide name=%name time=0]
+[chara_hide name=%name time=10]
 [endmacro]
 
 
@@ -278,7 +278,7 @@
 ;背景画像表示
 [mask time=%time|2000]
 ;暗転時は全キャラを削除
-[chara_hide_all time=0]
+[chara_hide_all time=10]
 [bg storage=%haikei time="100"]
 [endmacro]
 [macro name="暗転開"]
@@ -297,7 +297,7 @@
 [macro name="回想閉"]
 [mask time=2000]
 ;暗転時は全キャラを削除
-[chara_hide_all time=0]
+[chara_hide_all time=10]
 ;BGM ストップ
 [stopbgm]
 ;背景レイヤのフィルター解除

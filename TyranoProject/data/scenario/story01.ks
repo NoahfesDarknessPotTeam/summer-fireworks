@@ -27,7 +27,7 @@
 
 ;黒背景にしてスタート
 [暗転閉 haikei="black.png" time="500"]
-[暗転開 time="0"]
+[暗転開 time="10"]
 
 ;メッセージウィンドウ表示
 [layopt layer=message0 visible=true]
@@ -75,7 +75,7 @@
 「俺は生徒会で、暁美は部活があったもんな」[p]
 
 ;ずーむ
-[camera zoom=1.3 y=80 x=200 time=0]
+[camera zoom=1.3 y=80 x=200 time=10]
 
 #暁美
 「そうだよー。[r]お兄ちゃんが生徒会に入ったって聞いた時は、[r]私ほんとに驚いたんだからね！」[p]
@@ -162,7 +162,7 @@
 [bg storage="scene2_003.png" time="100"]
 
 ;ずーむ
-[camera zoom=1.3 y=80 x=200 time=0]
+[camera zoom=1.3 y=80 x=200 time=10]
 
 #暁美
 「……お兄ちゃんの役職、庶務だしね。[r]特に仕事なんてないもんね」[p]
@@ -201,7 +201,7 @@
 
 [bg storage="scene2_003.png" time="100"]
 ;ずーむ
-[camera zoom=1.3 y=80 x=200 time=0]
+[camera zoom=1.3 y=80 x=200 time=10]
 
 #暁美
 「まあねー。[r]お姉ちゃんに憧れない人なんていないよ！」[p]
@@ -239,7 +239,7 @@
 
 /*
 ;ずーむ
-[camera zoom=1.3 y=80 x=200 time=0]
+[camera zoom=1.3 y=80 x=200 time=10]
 */
 
 [bg storage="pict.png" time="1000"]
