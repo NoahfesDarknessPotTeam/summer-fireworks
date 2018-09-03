@@ -14,7 +14,7 @@
 [BGM storage="main3.ogg" volume=100]
 
 ;背景４
-[bg storage="scene4.png" time="0"]
+[bg storage="scene4.png" time="500"]
 
 ;[jump target="*dbg"]
 
@@ -48,7 +48,7 @@
 
 ;ずーむ
 [wait time=400]
-[camera zoom=1.3 y=80 time=0]
+[camera zoom=1.3 y=80 time=10]
 [wait time=100]
 
 イジメられていたこと」[p]
@@ -62,7 +62,7 @@
 /*
 ;ずーむ
 [wait time=400]
-[camera zoom=1.7 y=100 time=0]
+[camera zoom=1.7 y=100 time=10]
 [wait time=100]
 */
 
@@ -76,7 +76,7 @@
 
 ;ずーむ
 [wait time=400]
-[camera zoom=2.1 y=130 time=0]
+[camera zoom=2.1 y=130 time=10]
 [wait time=100]
 
 #暁美
@@ -138,30 +138,30 @@
 ;演出で画像に文字表示
 [layopt layer=message0 visible=false]
 [layopt layer=message1 visible=false]
-[bg storage="1.png" time="0"]
-[wait time=1151]
-[bg storage="2.png" time="0"]
-[wait time=1295]
-[bg storage="3.png" time="0"]
-[wait time=1647]
-[bg storage="4.png" time="0"]
+[bg storage="1.png" time="10"]
+[wait time=1141]
+[bg storage="2.png" time="10"]
+[wait time=1285]
+[bg storage="3.png" time="10"]
+[wait time=1637]
+[bg storage="4.png" time="10"]
 [wait time=2200]
-[bg storage="5.png" time="0"]
+[bg storage="5.png" time="10"]
 [wait time=1000]
-[bg storage="6.png" time="0"]
+[bg storage="6.png" time="10"]
 [wait time=900]
-[bg storage="7.png" time="0"]
-[wait time=950]
-[bg storage="8.png" time="0"]
-[wait time=1044]
-[bg storage="9.png" time="0"]
+[bg storage="7.png" time="10"]
+[wait time=930]
+[bg storage="8.png" time="10"]
+[wait time=1034]
+[bg storage="9.png" time="10"]
 [wait time=1300]
-[bg storage="10.png" time="0"]
-[wait time=1642]
-[bg storage="11.png" time="0"]
-[wait time=2500]
-[bg storage="12.png" time="0"]
-[wait time=2000]
+[bg storage="10.png" time="10"]
+[wait time=1622]
+[bg storage="11.png" time="10"]
+[wait time=1600]
+[bg storage="12.png" time="10"]
+[wait time=1000]
 ;「許せるわけがない」[p]
 ;「生きている意味がない」[p]
 ;「俺達の姉を殺しておいて」[p]
@@ -290,7 +290,7 @@
 [bg storage="white.png" time="2000"]
 
 ;手の背景
-[bg storage="te.png" time="0"]
+[bg storage="te.png" time="10"]
 
 [name_hide]
 俺達は手を握った。[r]離さないように、強く固く。[p]
