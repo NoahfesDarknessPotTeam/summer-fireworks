@@ -16,7 +16,6 @@
 [jump target="*dbg"]
 */
 
-
 ;切れ方が中途半端になっているのでここのBGMはもうちょっと考えたい
 [fadeinbgm storage="main1.ogg" time="2000" volume="50"]
 [wait time="15000"]
@@ -24,7 +23,6 @@
 [wait time="2000"]
 
 [fadeinbgm storage="main2.ogg" time="500" volume="30"]
-
 [playse storage="handy_firework1.ogg" buf="2" volume="50"]
 
 ;黒背景にしてスタート
