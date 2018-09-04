@@ -132,8 +132,17 @@
 ;ＢＧＭストップ
 [stopbgm]
 
+/*
+;畳みかけのデバッグ用
+*dbg
+[voconfig sebuf=2 name="暁美" vostorage="{number}r.ogg" number=38]
+[vostart]
+*/
+
 #暁美
 #
+
+
 
 ;演出で画像に文字表示
 [layopt layer=message0 visible=false]
@@ -141,13 +150,13 @@
 [bg storage="1.png" time="10"]
 [wait time=1141]
 [bg storage="2.png" time="10"]
-[wait time=1285]
+[wait time=1300]
 [bg storage="3.png" time="10"]
 [wait time=1637]
 [bg storage="4.png" time="10"]
-[wait time=2200]
+[wait time=2450]
 [bg storage="5.png" time="10"]
-[wait time=1000]
+[wait time=1200]
 [bg storage="6.png" time="10"]
 [wait time=900]
 [bg storage="7.png" time="10"]
@@ -155,13 +164,13 @@
 [bg storage="8.png" time="10"]
 [wait time=1034]
 [bg storage="9.png" time="10"]
-[wait time=1300]
+[wait time=1700]
 [bg storage="10.png" time="10"]
-[wait time=1622]
+[wait time=2522]
 [bg storage="11.png" time="10"]
-[wait time=1600]
+[wait time=600]
 [bg storage="12.png" time="10"]
-[wait time=1000]
+[wait time=1700]
 ;「許せるわけがない」[p]
 ;「生きている意味がない」[p]
 ;「俺達の姉を殺しておいて」[p]
@@ -316,6 +325,10 @@
 [bg  storage="end02.png"  time="3000"  ]
 [wait  time="6500"  ]
 [bg  storage="end03.png"  time="3000"  ]
+[wait  time="6500"  ]
+[暗転閉  haikei="black.png"  time="2000"  ]
+[暗転開  time="10"  ]
+[bg  storage="end04.png"  time="3000"  ]
 [wait  time="6500"  ]
 
 ;レイヤー開放
